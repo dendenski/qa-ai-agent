@@ -1,0 +1,1 @@
+Follow the format defined in [the test case template](../../templates/testcase-template.md).
