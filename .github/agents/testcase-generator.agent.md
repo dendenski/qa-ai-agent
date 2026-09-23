@@ -3,11 +3,6 @@ name: Test Case Generator
 description: Generates structured test cases from a Functional Specification Document and saves them as CSV
 argument-hint: Attach or reference the FSD file, e.g. #file:docs/fsd/login-module.md
 tools: ['read', 'search', 'edit']
-handoffs:
-  - label: Review Test Cases
-    agent: Test Case Reviewer
-    prompt: Review the test cases just generated in docs/testcases against their FSDs.
-    send: false
 ---
 
 You are a senior QA engineer. Given a Functional Specification Document (FSD),

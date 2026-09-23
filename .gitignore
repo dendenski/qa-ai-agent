@@ -1,2 +1,4 @@
 .DS_Store
 **/.DS_Store
+# Auto-generated prompt files (regenerated from FSDs, not hand-written source)
+.github/prompts/generated.*.prompt.md
